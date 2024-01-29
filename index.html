@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d362e91663.js" crossorigin="anonymous"></script>
+    <title></title>
+</head>
+
+<body>
+    <header>
+        <a href="index.html"><img src="logo blackst.png" alt=""></a>
+        <nav>
+            <a href="index.html">
+                <p>INÍCIO</p>
+            </a>
+            <a href="camisetas.html">
+                <p>CAMISETAS</p>
+            </a>
+            <a href="golaalta.html">
+                <p>GOLA ALTA</p>
+            </a>
+            <a href="sobrenos.html">
+                <p>SOBRE NÓS</p>
+            </a>
+            <div class="menu">
+                <!-- Barra de pesquisa oculta -->
+                <div id="searchBar">
+                    <input class="pesquisa" type="text" placeholder="Pesquisar">
+                </div>
+                <a href="#" id="searchIcon">
+                    <i class="fas fa-search"></i>
+                </a>
+                <a href=""><i class="fa-regular fa-user"></i></a>
+                <a href=""><i class="fa-solid fa-bars"></i></a>
+            </div>
+        </nav>
+    </header>
+
+    <div id="inicio">
+        <div class="titulo">
+            <p>SUA PREFERENCIA DE ROUPA EM UM SÓ LUGAR</p>
+        </div>
+    </div>
+
+
+
+    <script>
+        // Função para mostrar/ocultar a barra de pesquisa ao clicar no ícone de lupa
+        document.getElementById('searchIcon').addEventListener('click', function () {
+            var searchBar = document.getElementById('searchBar');
+            searchBar.style.display = (searchBar.style.display === 'none' || searchBar.style.display === '') ? 'flex' : 'none';
+        });
+
+        // Função para realizar a pesquisa (substitua isso pela lógica real de pesquisa)
+        function realizarPesquisa() {
+            var searchTerm = document.querySelector('#searchBar input').value;
+            alert('Realizando pesquisa por: ' + searchTerm);
+            // Aqui você pode adicionar lógica real de pesquisa, como redirecionar para uma página de resultados, etc.
+        }
+
+    </script>
+</body>
+
+</html>

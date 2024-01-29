@@ -1,0 +1,104 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url(Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: 'OpenSans';
+    src: url(Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+@font-face {
+    font-family: 'Alata';
+    src: url(Alata/Alata-Regular.ttf);
+}
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    background-color: rgba(250, 250, 250, 0.908);
+}
+header {
+    width: 100%;
+    display: flex;
+    position: fixed;
+    padding: 30px;
+    background-color: rgba(250, 250, 250, 0.908);
+}
+header img {
+    width: 330px;
+}
+nav {
+    font-family: 'Montserrat' ;
+    margin-left: 210px;
+    display: flex;
+}
+nav a {
+    text-decoration: none;
+}
+nav p {
+    margin-left: 20px;
+    color: black;
+    transition: 0.1s;
+    text-align: center;
+}
+nav p:hover {
+    color: rgb(255, 105, 105);
+}
+nav img {
+    width: 50px;
+}
+.menu {
+    margin-left: 20px;
+    font-size: 24px;
+    display: flex;
+    margin-top: 6px;
+}
+.menu a {
+    text-decoration: none;
+    color: black;
+}
+
+.fa-magnifying-glass {
+    margin-left: 210px;
+    
+}
+.fa-solid {
+    
+    margin-left: 30px;
+}
+.fa-regular {
+    
+    margin-left: 30px;
+}
+.pesquisa {
+    height: 30px;
+    width: 200px;
+    border-radius: 20px;
+    color: rgb(107, 107, 107);
+    border: none;
+    background-color: rgb(232, 232, 232);
+    padding-left: 10px;
+    font-family: 'OpenSans';
+}
+.botao-pesquisar {
+    height: 20px;
+}
+#searchBar {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+}
+
+
+#inicio {
+    justify-content: center;
+    width: 100%;
+    height: 600px;
+    background-image: url('IMG_6394.JPG');
+    background-size: cover; /* Garante que a imagem cubra completamente a div */
+    background-position: center;
+    background-size: 100% 100%;
+}
+.titulo {
+    padding-top: 300px;
+    padding-left: 100px;
+}
